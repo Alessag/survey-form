@@ -1,0 +1,9 @@
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+#survey-form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: aqua;
+}
