@@ -9,7 +9,9 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1 id="title">Survey Form</h1>
+    <div>
+        <h1 id="title">Survey Form</h1>
+    </div>
     <div class="container">
         <p id="description">Let us know how we can improve freeCodeCamp</p>
         <form action="POST" id="survey-form">
@@ -33,6 +35,12 @@
                    <option value="5">Other</option>
                </select>
            </div>
+           
+           <label for="">How likely is that you would recommend freeCodeCamp to a friend?</label>
+           <label for="recommend "><input type="checkbox" name="definitely" id="definitely" value="definitely"> Definitely</label><br>
+           <label for="recommend "><input type="checkbox" name="maybe" id="maybe" value="maybe"> Maybe</label><br>
+           <label for="recommend "><input type="checkbox" name="notSure" id="notSure" value="notSure"> Not Sure</label><br>
+           
         </form>
     </div>
 </body>
