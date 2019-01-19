@@ -53,3 +53,9 @@ textarea{
     width: 65%;
     height: 35%;
 }
+
+@media (min-width: 320px) and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+}
