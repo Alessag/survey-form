@@ -48,3 +48,8 @@ input#principal {
     border-radius: 3%;
     font-weight: 600;
 }
+
+textarea{
+    width: 65%;
+    height: 35%;
+}
