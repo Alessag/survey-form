@@ -20,13 +20,31 @@ body {
 #survey-form{
     display: grid;
     grid-template-columns: 50% 50%;
-   /*text-align: right;*/
+    grid-row-gap: 0.5ex;
+}
+
+label[for="left"]{
+    text-align: right;
+    padding-right: 1rem;
 }
 
 #survey-form label input{
     text-align: left;
 }
 
+input#principal {
+    font-family: 'Muli', sans-serif;
+    width: 40%;
+    padding: 0.2rem;
+}
+
 #dropdown {
     width: 0;
+}
+
+#dropdown select{
+    color: black;
+    padding: 0.3rem;
+    border-radius: 3%;
+    font-weight: 600;
 }
