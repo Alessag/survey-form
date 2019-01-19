@@ -16,16 +16,16 @@
     <div class="container">
         <p id="description">Let us know how we can improve freeCodeCamp</p>
         <form action="POST" id="survey-form">
-            <label for="name" id="name-label">Name</label>
-            <input type="text" placeholder="Name" required>
+            <label for="left" id="name-label">* Name</label>
+            <input id="principal" "type="text" placeholder="Enter your Name" required>
 
-            <label for="email" id="email-label">Email</label>
-            <input type="email" placeholder="Email" required>
+            <label for="left" id="email-label">* Email</label>
+            <input id="principal" "type="email" placeholder="Enter your Email" required>
 
-            <label for="number" id="number-label">Age</label>       
-            <input type="number" min="0" max="50" placeholder="Age" required>
+            <label for="left" id="number-label">* Age</label>       
+            <input id="principal" "type="number" min="0" max="50" placeholder="Enter your Age" required>
             
-           <label for="">Which option best describes your current role?</label>
+           <label for="left">Which option best describes your current role?</label>
            <div id="dropdown">
                <select name="" id="">
                    <option value="0">Select an option</option>
@@ -37,12 +37,12 @@
                </select>
            </div>
            
-           <label for="">How likely is that you would recommend freeCodeCamp to a friend?</label>
+           <label for="left">How likely is that you would recommend freeCodeCamp to a friend?</label>
            <label for="recommend "><input type="radio" name="definitely" id="definitely" value="definitely"> Definitely</label><br>
            <label for="recommend "><input type="radio" name="maybe" id="maybe" value="maybe"> Maybe</label><br>
            <label for="recommend "><input type="radio" name="notSure" id="notSure" value="notSure"> Not Sure</label>
            
-           <label for="">What do you like most in FCC</label>
+           <label for="left">What do you like most in FCC</label>
            <div id="dropdown">
                <select name="" id="">
                    <option value="0">Select an option</option>
@@ -53,7 +53,7 @@
                </select>
            </div>
 
-           <label for="">Things that should be improved in the future (Check all that apply): </label>
+           <label for="left">Things that should be improved in the future (Check all that apply): </label>
            <label for="improve "><input type="checkbox" name="definitely" id="front-end" value="front-end"> Front-end Proyects</label><br>
            <label for="improve "><input type="checkbox" name="definitely" id="back-end" value="back-end"> Back-end Proyects</label><br>
            <label for="improve "><input type="checkbox" name="definitely" id="data-visualization" value="data-visualization"> Data Visualization</label><br>
@@ -66,7 +66,7 @@
            <label for="improve "><input type="checkbox" name="definitely" id="forum" value="forum"> Forum</label><br>
            <label for="improve "><input type="checkbox" name="definitely" id="additional" value="additional"> Additional Courses</label>
            
-           <label for="">Any Comments or Suggestions?</label>
+           <label for="left">Any Comments or Suggestions?</label>
            <textarea name="comment" id="" cols="20" rows="10" placeholder="Enter your comment here ..."></textarea>
 
            <button type="submit" id="submit">Submit</button>
