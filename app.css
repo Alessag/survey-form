@@ -1,26 +1,27 @@
+body {
+    background-color: #141315bf;
+}
 #title {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
+    font-family: 'Muli', sans-serif;
     width: 50%;
     margin: 0 auto;
     border: 1px solid black;
+    background-color: #fff;
 }
 
 .container p{
     text-align: center;
 }
+
 #survey-form{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-column-gap: 1em;
-   /* background-color: aqua;*/
    /*text-align: right;*/
 }
-
-/*#survey-form input{
-   width: 40%;
-}*/
 
 #survey-form label input{
     text-align: left;
@@ -29,8 +30,3 @@
 #dropdown {
     width: 0;
 }
-
-/*label[for="recommend "]{
-    background-color: blueviolet;
-    width: auto;
-}*/
