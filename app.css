@@ -5,6 +5,7 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+
 .container{
     font-family: 'Muli', sans-serif;
     width: 50%;
@@ -15,6 +16,14 @@ body {
 
 .container p{
     text-align: center;
+}
+
+.item-1{
+    grid-area: main;
+}
+
+.item-2{
+    grid-area: button;
 }
 
 #survey-form{
